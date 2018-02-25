@@ -54,6 +54,7 @@ public class SeMethods extends Reporter implements WdMethods{
 	}
 
 	public void startApp(String browser, boolean bRemote) {
+		//This is test for Merge GIt
 		try {
 			DesiredCapabilities dc = new DesiredCapabilities();
 			dc.setBrowserName(browser);
